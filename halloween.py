@@ -1,7 +1,7 @@
 # halloween.py
 
 # Fråga användaren om deras favorit-Halloween-karaktär
-karaktar = input("Vilken är din favorit-Halloween-karaktär? (vampyr, zombie, spöke, frank, demon, pumpkin): ").lower()
+karaktar = input("Vilken är din favorit-Halloween-karaktär? (vampyr, zombie, spöke, frank, demon, pumpkin, katt): ").lower()
 
 # Använd en if-sats för att ge ett svar baserat på användarens val
 if karaktar == "vampyr":
@@ -16,5 +16,7 @@ elif karaktar == "demon":
     print("BUURRRNN!!")
 elif karaktar == "pumpkin":
     print("PUMPKIN!")
+elif karaktar == "katt":
+    print("Meooow")
 else:
     print("Det låter som en spännande karaktär!")
